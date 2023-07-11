@@ -1,8 +1,7 @@
 import express from 'express';
 
-import { getUserByEmail, createUser } from '../db/users';
+import { createUser } from '../db/users';
 import { deleteUserById, getUsers, getUserById } from '../db/users';
-
 
 
 
