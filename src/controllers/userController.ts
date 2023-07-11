@@ -4,6 +4,8 @@ import { getUserByEmail, createUser } from '../db/users';
 import { deleteUserById, getUsers, getUserById } from '../db/users';
 
 
+
+
 export const register = async (req: express.Request, res: express.Response) => {
   try {
     const { email, password, username } = req.body;
